@@ -1,4 +1,3 @@
-
 /* ---------------- GLOBAL ---------------- */
 body {
   margin: 0;
@@ -50,47 +49,23 @@ nav ul li a {
 nav ul li a:hover {
   color: #4a90e2;
 }
-
-/* MOBILE MENU BUTTON */
-.menu-btn {
-  display: none;
-  font-size: 2rem;
-  cursor: pointer;
-}
-
-/* MOBILE MENU PANEL */
-.mobile-menu {
-  display: none;
-  flex-direction: column;
-  background: white;
-  width: 100%;
-  padding: 20px 8%;
-  position: absolute;
-  top: 70px;
-  left: 0;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-}
-
-.mobile-menu a {
-  padding: 12px 0;
-  font-size: 1.1rem;
-  border-bottom: 1px solid #eee;
-}
-
 /* ---------------- HERO ---------------- */
 .hero {
   position: relative;
   height: 90vh;
+  width: 100%;
   overflow: hidden;
 }
 
+/* ⭐ FIXED HERO IMAGE — PERFECTLY RESPONSIVE ⭐ */
 .hero img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  filter: brightness(65%);
+  object-fit: cover;        /* keeps proportions */
+  object-position: center;  /* keeps subject centered */
 }
 
+/* HERO CONTENT */
 .hero-content {
   position: absolute;
   top: 50%;
@@ -131,7 +106,7 @@ nav ul li a:hover {
 
 /* ---------------- SERVICES ---------------- */
 .services {
-  padding: 60px 8%;
+  padding: 50px 8%;
   text-align: center;
 }
 
@@ -166,7 +141,7 @@ nav ul li a:hover {
 
 /* ---------------- GALLERY ---------------- */
 .gallery {
-  padding: 60px 8%;
+  padding: 50px 8%;
   text-align: center;
 }
 
@@ -191,7 +166,7 @@ nav ul li a:hover {
 
 /* ---------------- CONTACT CTA ---------------- */
 .contact-cta {
-  padding: 60px 8%;
+  padding: 20px 8%;
   text-align: center;
   background: #eaf4ff;
   border-top: 1px solid #d6e8ff;
@@ -241,7 +216,7 @@ footer {
   }
 
   .hero {
-    height: 75vh;
+    height: 70vh; /* better for tablets */
   }
 
   .hero-content h1 {
@@ -254,6 +229,10 @@ footer {
 }
 
 @media (max-width: 600px) {
+  .hero {
+    height: 60vh; /* perfect for mobile */
+  }
+
   .hero-content {
     width: 90%;
     padding: 20px;
@@ -404,36 +383,3 @@ footer {
 .resize-ne { top: -10px; right: -10px; cursor: nesw-resize; }
 .resize-sw { bottom: -10px; left: -10px; cursor: nesw-resize; }
 .resize-se { bottom: -10px; right: -10px; cursor: nwse-resize; }
-
-.clicky-hand {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background: url('https://i.imgur.com/6YV0Z8E.png') center/contain no-repeat;
-    animation: bounce 1s infinite ease-in-out;
-    pointer-events: none;
-    z-index: 9999;
-  }
-
-  @keyframes bounce {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-8px); }
-  }
-
-  .edit-tooltip {
-    position: absolute;
-    background: #222;
-    color: #fff;
-    padding: 6px 10px;
-    border-radius: 6px;
-    font-size: 13px;
-    white-space: nowrap;
-    z-index: 9999;
-    transform: translateY(-45px);
-    opacity: 0;
-    animation: fadeIn 0.3s forwards;
-  }
-
-  @keyframes fadeIn {
-    to { opacity: 1; }
-  }
