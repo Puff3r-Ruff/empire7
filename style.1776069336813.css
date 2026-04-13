@@ -1,3 +1,4 @@
+
 /* ---------------- GLOBAL ---------------- */
 body {
   margin: 0;
@@ -403,3 +404,36 @@ footer {
 .resize-ne { top: -10px; right: -10px; cursor: nesw-resize; }
 .resize-sw { bottom: -10px; left: -10px; cursor: nesw-resize; }
 .resize-se { bottom: -10px; right: -10px; cursor: nwse-resize; }
+
+.clicky-hand {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url('https://i.imgur.com/6YV0Z8E.png') center/contain no-repeat;
+    animation: bounce 1s infinite ease-in-out;
+    pointer-events: none;
+    z-index: 9999;
+  }
+
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+  }
+
+  .edit-tooltip {
+    position: absolute;
+    background: #222;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    white-space: nowrap;
+    z-index: 9999;
+    transform: translateY(-45px);
+    opacity: 0;
+    animation: fadeIn 0.3s forwards;
+  }
+
+  @keyframes fadeIn {
+    to { opacity: 1; }
+  }
