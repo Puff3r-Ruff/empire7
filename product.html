@@ -127,6 +127,7 @@
   <!-- CENTER: PRODUCT INFO -->
   <div class="info">
     <h1 id="productName"></h1>
+    <div class="price" id="productPrice"></div>
     <p id="productDesc"></p>
 
     <label><strong>Variant:</strong></label><br>
@@ -140,6 +141,11 @@
     <button class="buy-now" id="buyNowBtn">Buy Now</button>
   </div>
 
+</div>
+
+<div class="details">
+  <h2>Description</h2>
+  <p id="longDesc"></p>
 </div>
 
 <script>
@@ -159,6 +165,7 @@ async function loadProduct() {
   // Fill info
   document.getElementById("productName").textContent = product.name;
   document.getElementById("productDesc").textContent = product.description;
+  document.getElementById("longDesc").textContent = product.description;
 
   // Variants
   const variantSelect = document.getElementById("variantSelect");
