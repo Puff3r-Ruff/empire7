@@ -7,15 +7,7 @@
       "description": "Enter a description...",
       "basePrice": 250,
       "baseStock": 1,
-      "variants": [
-        {
-          "id": "1-1",
-          "name": "Doggy",
-          "price": 240,
-          "stock": 1,
-          "stripePriceId": "price_1TOKijRtwZSv1vxO1mXSx5NA"
-        }
-      ],
+      "variants": [],
       "image": "Products/images/product-1.jpg",
       "stripeProductId": "prod_UN3LpGb4MKYvVX"
     }
