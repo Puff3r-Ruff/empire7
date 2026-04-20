@@ -1,0 +1,23 @@
+{
+  "connectId": "acct_1TMtQORtwZSv1vxO",
+  "products": [
+    {
+      "id": 1,
+      "name": "Pokémon Banner",
+      "description": "Premium Pokémon banner featuring pikachu Charmander and ash",
+      "basePrice": null,
+      "baseStock": null,
+      "variants": [
+        {
+          "id": "1-1",
+          "name": "Banner",
+          "price": 29.99,
+          "stock": 4,
+          "stripePriceId": "price_1TOOyLRtwZSv1vxOPwBtqglF"
+        }
+      ],
+      "image": "Products/images/product-1.jpg",
+      "stripeProductId": "prod_UN9GgHmo8TrNSY"
+    }
+  ]
+}
