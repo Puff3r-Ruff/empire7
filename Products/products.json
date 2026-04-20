@@ -1,0 +1,15 @@
+{
+  "connectId": "acct_1TMtQORtwZSv1vxO",
+  "products": [
+    {
+      "id": 1,
+      "name": "Dog for sale ",
+      "description": "Enter a description...",
+      "basePrice": 250,
+      "baseStock": 1,
+      "variants": [],
+      "image": "Products/images/product-1.jpg",
+      "stripeProductId": "prod_UN3LpGb4MKYvVX"
+    }
+  ]
+}
