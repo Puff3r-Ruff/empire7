@@ -156,7 +156,7 @@ async function loadProduct() {
   const params = new URLSearchParams(window.location.search);
   const id = parseInt(params.get("id"));
 
-  const res = await fetch("/motion-site/Products/products.json");
+  const res = await fetch("Products/products.json");
   const data = await res.json();
 
   product = data.products.find(p => p.id === id);
