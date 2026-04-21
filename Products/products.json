@@ -13,25 +13,50 @@
           "name": "S",
           "price": 19.99,
           "stock": 2,
-          "stripePriceId": "price_1TOZOQRtwZSv1vxO1bdS68Ij"
+          "stripePriceId": "price_1TOZTsRtwZSv1vxO0hLnmniK"
         },
         {
           "id": "1-2",
           "name": "M",
           "price": 19.99,
           "stock": 3,
-          "stripePriceId": "price_1TOZOQRtwZSv1vxOOC6UBjoG"
+          "stripePriceId": "price_1TOZTtRtwZSv1vxOfRpXIj6O"
         },
         {
           "id": "1-3",
           "name": "L",
           "price": 19.99,
           "stock": 4,
-          "stripePriceId": "price_1TOZOQRtwZSv1vxOZdM1hCcl"
+          "stripePriceId": "price_1TOZTtRtwZSv1vxOXmAxOZaG"
         }
       ],
       "image": "Products/images/product-1.jpg",
       "stripeProductId": "prod_UN9GgHmo8TrNSY"
+    },
+    {
+      "id": 2,
+      "name": "Speed Cat Wheel",
+      "description": "Cat care this cat toy will give your cat hours of joy and exercise.",
+      "basePrice": null,
+      "baseStock": null,
+      "variants": [
+        {
+          "id": "2-1",
+          "name": "Blue",
+          "price": 24.99,
+          "stock": 4,
+          "stripePriceId": "price_1TOZTtRtwZSv1vxOBdH2uWvp"
+        },
+        {
+          "id": "2-2",
+          "name": "Green",
+          "price": 24.99,
+          "stock": 5,
+          "stripePriceId": "price_1TOZTtRtwZSv1vxOgPH3YynF"
+        }
+      ],
+      "image": "Products/images/product-2.jpg",
+      "stripeProductId": "prod_UNK8xoXLIF7fNx"
     }
   ]
 }
