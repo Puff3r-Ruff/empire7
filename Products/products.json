@@ -3,17 +3,31 @@
   "products": [
     {
       "id": 1,
-      "name": "Pokémon Banner",
-      "description": "Premium Pokémon banner featuring pikachu Charmander and ash",
+      "name": "Cat Flee Collar",
+      "description": "Care for your cat with this easy comfortable fit cat collar.",
       "basePrice": null,
       "baseStock": null,
       "variants": [
         {
           "id": "1-1",
-          "name": "Banner",
-          "price": 29.99,
+          "name": "S",
+          "price": 19.99,
+          "stock": 2,
+          "stripePriceId": "price_1TOZOQRtwZSv1vxO1bdS68Ij"
+        },
+        {
+          "id": "1-2",
+          "name": "M",
+          "price": 19.99,
+          "stock": 3,
+          "stripePriceId": "price_1TOZOQRtwZSv1vxOOC6UBjoG"
+        },
+        {
+          "id": "1-3",
+          "name": "L",
+          "price": 19.99,
           "stock": 4,
-          "stripePriceId": "price_1TOOyLRtwZSv1vxOPwBtqglF"
+          "stripePriceId": "price_1TOZOQRtwZSv1vxOZdM1hCcl"
         }
       ],
       "image": "Products/images/product-1.jpg",
